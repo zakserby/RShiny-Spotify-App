@@ -4,7 +4,9 @@ R Shiny app for exploring Spotify's Top Hits of the 2000s playlist, written with
 
 Files:
 
-- RShinyApp.html : knitted R Markdown file containing the full app code (data cleaning, UI and server)
+- RShinyApp.R : full app code (data cleaning, UI and server), copied from the R Markdown file
+- RShinyApp.pdf : knitted R Markdown file as a PDF, showing the code and its console output
+- RShinyApp.html : original knitted R Markdown file (download and open in a browser to view)
 
 Data cleaning:
 
@@ -23,4 +25,4 @@ Data:
 
 - song_normalize.csv (2,000 songs, 18 columns) is read by the code and is not included in this repository.
 
-To run: copy the code into R with shiny, ggplot2, tidyr, dplyr, plotly, shinythemes, tools, DT, viridis and readr installed, point read_csv to song_normalize.csv and run shinyApp(ui, server). The app does not run inside the static HTML file.
+To run: open RShinyApp.R in R with shiny, ggplot2, tidyr, dplyr, plotly, shinythemes, tools, DT, viridis and readr installed, point read_csv to song_normalize.csv and run the script. The app does not run inside the HTML or PDF files.
