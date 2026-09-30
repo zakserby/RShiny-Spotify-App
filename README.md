@@ -13,12 +13,6 @@ Files:
 - app/song_normalize.csv : song data read by the app
 - .github/workflows/deploy-app.yml : builds the web version with shinylive and publishes it to GitHub Pages
 
-Data cleaning:
-
-- separate splits the genre column into each song's two most prominent genres
-- pivot_longer reshapes the data to one row per song and genre, dropping missing genres
-- toTitleCase and relabeling tidy the genre and explicit columns and rename duration_ms to duration
-
 App tabs:
 
 - Top Hits 2000s Overview : bar chart of songs by genre or explicitness, filtered by year and artist (barchart), with the number of songs per chosen artist (song2) and a table ranking songs by popularity (poptable)
